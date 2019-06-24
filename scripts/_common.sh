@@ -7,6 +7,8 @@
 # dependencies used by the app
 pkg_dependencies="libxml2-dev libxslt-dev libfreetype6-dev \
 	libjpeg-dev libz-dev libyaml-dev python3-dev python3-pip python3-virtualenv \
+	libgirepository1.0-dev libglib2.0-dev libcairo2-dev libffi-dev pkg-config \
+	libpango1.0-dev \
 	postgresql libpq-dev uwsgi uwsgi-plugin-python3 \
 	mailutils python-celery-common virtualenv redis-server"
 
