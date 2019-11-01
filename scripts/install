@@ -179,7 +179,7 @@ EOF
 
 ynh_script_progression --message="Install weblate using PIP..." --time --weight=10
 
-virtualenv --python=python3 "${final_path}/venv"
+virtualenv --python=python3.6 "${final_path}/venv"
 #run source in a 'sub shell'
 (
 	set +o nounset
